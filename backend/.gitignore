@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Secrets (kabhi push nahi karne)
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test and build output
+coverage/
+dist/
+build/
+.next/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/

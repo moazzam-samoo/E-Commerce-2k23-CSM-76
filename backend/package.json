@@ -1,0 +1,23 @@
+{
+  "name": "kelvorne-backend",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Kelvorne - Sprint 2 catalog admin API",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js",
+    "dev": "node server.js",
+    "token": "node scripts/get-token.js",
+    "test": "vitest run",
+    "evidence": "node scripts/evidence.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.0"
+  }
+}
